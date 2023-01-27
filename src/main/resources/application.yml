@@ -1,0 +1,13 @@
+spring:
+  application:
+    name: bootcamp-1-week3
+  config:
+     activate:
+       on-profile: default
+  data:
+    mongodb:
+      host: localhost
+      port: 27017
+      database: bootcampweek3
+server:
+  port: 8081
